@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="height: 407px;">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="height: 331px;">
+	<br></br>
+	<div align="center" style="height: 293px;">
+		<form method="post" action=""
+			style="background-image: url('https://c.tadst.com/gfx/600x337/full-moon-peeking-tree-branches-fog.jpg?1'); height: 225px; width: 600px">
+			<fieldset style="height: 208px;">
+				<table style="width: 364px; height: 106px;">
+					<br>
+					<tr>
+						<td><label style="color: buttontext; font: bold;">Nome:</label></td>
+						<td><input type="text" id="nome" name="nome"
+							style="height: 24px; border-radius: 10px; background-color: appworkspace;"></td>
+					</tr>
+					<tr>
+						<td><label style="color: buttontext; font: bold;">Login:</label></td>
+						<td><input type="text" id="login" name="login"
+							style="height: 24px; border-radius: 10px; background-color: appworkspace;"></td>
+					</tr>
+					<tr>
+						<td><label style="color: buttontext; font: bold;">Password:</label></td>
+						<td><input type="password" id="password" name="password"
+							style="height: 24px; border-radius: 10px; background-color: appworkspace;"></td>
+					</tr>
+				</table>
+				<br> <input type="submit" value="Salvar"
+					style="width: 40%; border-radius: 15px" onclick="validarDados()">
+			</fieldset>
+		</form>
+		<script type="text/javascript">
+			function validarDados() {
+				var nome = document.getElementById("nome").value;
+				if (nome == '') {
+					alert("Informe o nome é :" + nome)
+				}
+			}
+		</script>
+
+	</div>
+
+
+</body>
+</html>
